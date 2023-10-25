@@ -1,0 +1,18 @@
+header{
+    background-color: black;
+    width: auto;
+    height: 100px;
+    inline-size: auto;
+}
+img {
+    width: 100p;
+    height: 50px;
+}
+.nav_ul_enlace{
+    color: white;
+}
+main {
+    background-color: rgb(52, 214, 226);    
+    color: white;
+    font-size: 20px;
+}
