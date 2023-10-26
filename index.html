@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify 5 🎧</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
 </head>
 <body>
-    <header>
-        <img src="./pics/logo.png" alt="Logo">
+    <header class="header">
+        <img src="./pics/logo.png" alt="Logo" class="header__logo">
         <nav>
-            <ul>
+            <ul class="menu">
                 <a class="nav_ul_enlace" href="#">Premium</a>
                 <a class="nav_ul_enlace" href="#">Ayuda</a>
                 <a class="nav_ul_enlace" href="#">Descargar</a>
@@ -19,19 +21,28 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Prueba Premium gratis 3 meses</h1>
-        Escucha millones de canciones sin anuncios, a la carta y sin conexión.
-
-        boton VER PLANES
-
-        Rigen términos y condiciones. Los tres meses grátis no estan disponibles para usuarios que hayan probado Premium. 
-
+    <main class="main"> 
+        <section class="seccion1">
+            <figure>
+                <img src="/pics/premium_dancer.png" alt="Imagen de una chica escuchando música" class="seccion1__img">
+            </figure>
+            <h1>Prueba Premium gratis 3 meses</h1>
+            <p>Escucha millones de canciones sin anuncios, a la carta y sin conexión.</p>
+            <button>VER PLANES</button>
+            <p class="terminos">Rigen términos y condiciones. Los tres meses grátis no estan disponibles para usuarios que hayan probado Premium.</p>
+        </section>
+        
         ¿Por qué pasarte a Premium? 
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
-
     </main>
+    <footer>
+        <a href="">Legal</a>
+        <a href="">Cookies</a>
+        <a href="">Información sobre los anuncios</a>
+        <p>España</p>
+        <p>© 2019 Spotify AB</p>
+    </footer>
 </body>
 </html>
