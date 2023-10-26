@@ -1,0 +1,20 @@
+header{
+    background-color: black;
+    width: auto;
+    height: 100px;
+    inline-size: auto;
+}
+img {
+    width: 100p;
+    height: 50px;
+}
+
+main {
+    background-color: rgb(52, 214, 226);    
+    color: white;
+    font-size: 20px;
+}
+
+.menu__premium .a {
+    text-decoration: none;
+}
