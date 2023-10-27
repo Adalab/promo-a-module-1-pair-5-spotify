@@ -7,8 +7,10 @@
 .header__logo {
     width: 200px;
 }
-.menu__premium .a {
-    text-decoration: none;
+.menu li {
+    display: inline-block;
+    font-size: 20px;
+    background-color: wheat;
 }
 
 
