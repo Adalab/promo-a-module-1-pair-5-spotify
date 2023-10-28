@@ -1,11 +1,12 @@
 .header {
     background-color: black;
     width: auto;
-    height: 100px;
+    height: 90px;
     inline-size: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
 }
 .header .logo {
   height: 80px;
@@ -19,6 +20,29 @@
     margin-left: 20;
 }
 
+=======
+
+}
+.header .logo {
+    height: 50px;
+    margin-left: 30px;
+}
+
+nav {
+    margin-right: 30px;
+}
+.menu {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
+}
+
+>>>>>>> 00ecb84a8fb41ecb971025da83698e3143a939da
 .seccion1 {
     background-image:url(/pics/premium_dancer.png);
     background-repeat: no-repeat;
@@ -31,7 +55,9 @@
     width: 100vw;
     padding: 30px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 .seccion1__h1 {
     font-size: 60px;
@@ -40,6 +66,17 @@
     font-size: 23px;
     font-weight: 600;
 }
-.seccion__p2 {
+.seccion__terminos {
     font-size: 10px;
+}
+.seccion1__boton {
+    background-color: green;
+    border-radius: 15px;
+    border-width: 0px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 9px;
+    font-weight: 600;
+    
 }
