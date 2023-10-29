@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .logo {
     height: 50px;
@@ -22,18 +21,12 @@ nav {
     display: flex; 
     list-style: none;
 }
-.menu li a {
+.menu li a, .menu span {
     text-decoration: none;
     color: white;
     margin-left: 20px;
-    font-weight: 600;
+    font-weight: 600;   
 }
-.menu span{
-    color: white;
-    margin-left: 20px;
-    font-weight: 600;
-}
-
 .seccion1 {
     background-image:url(/pics/premium_dancer.png);
     background-repeat: no-repeat;
