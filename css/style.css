@@ -61,5 +61,8 @@ nav {
     width: 100px;
     font-size: 9px;
     font-weight: 600;
-    
+}
+.botonplan {
+    text-decoration: none;
+    color: white;
 }
