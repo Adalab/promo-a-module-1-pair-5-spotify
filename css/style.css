@@ -66,3 +66,19 @@ nav {
     text-decoration: none;
     color: white;
 }
+.pasar_a_premium {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.benefits {
+    display:inline;
+
+}.benefit {
+    font-size: 20px;
+    font-weight: 900px;
+}
+.benefit_1 {
+    font-size: 15px;
+}
