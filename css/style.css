@@ -85,10 +85,11 @@ nav {
   flex-direction: column;
   width: 175px;
 }
-.benefit {
-  font-size: 20px;
-  font-weight: 900px;
+.benefits__item h2 {
+  color: green;
+  text-align: center;
 }
-.benefit_1 {
-  font-size: 15px;
+.benefits__item h3 {
+  color: blueviolet;
+  text-align: center;
 }
