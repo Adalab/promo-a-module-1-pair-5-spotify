@@ -3,14 +3,14 @@
 }
 .header {
     background-color: black;
-    height: 90px;
-    inline-size: auto;
+    height: 70px;
+    width: 480px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo {
-    height: 50px;
+    height: 40px;
     margin-left: 30px;
 }
 nav {
@@ -20,10 +20,11 @@ nav {
 
     display: flex; 
     list-style: none;
+    
 }
 .menu li a, .menu span {
     text-decoration: none;
-    color: white;
+    color: black;
     margin-left: 20px;
     font-weight: 600;   
 }
