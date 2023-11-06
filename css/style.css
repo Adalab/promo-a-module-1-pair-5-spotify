@@ -27,25 +27,29 @@ nav {
     margin-left: 20px;
     font-weight: 600;   
 }
+
+
+
 .seccion1 {
-    background-image:url(/pics/premium_dancer.png);
+    /*background-image:url(/pics/premium_dancer.png);
     background-repeat: no-repeat;
     background-size: 400px;
-    background-position: right bottom;
+    background-position: right bottom;*/
     background-color: rgb(65, 147, 241);
     color: white;
     height: 500px;
-    width: 100vw;
-    padding: 30px;
+    width: 480px;
+    padding: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
 }
-.seccion1__h1 {
-    font-size: 60px;
+  .seccion1__h1 {
+    font-size: 37px;
 }
-.seccion1__escucha {
+/*.seccion1__escucha {
     font-size: 23px;
     font-weight: 600;
 }
@@ -65,4 +69,4 @@ nav {
 .botonplan {
     text-decoration: none;
     color: white;
-}
+} */
