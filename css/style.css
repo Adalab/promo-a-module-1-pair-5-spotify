@@ -46,28 +46,6 @@ nav {
 
 
 .seccion1 {
-<<<<<<< HEAD
-  background-image: url(/pics/premium_dancer.png);
-  background-repeat: no-repeat;
-  background-size: 400px;
-  background-position: right bottom;
-  background-color: rgb(65, 147, 241);
-  color: white;
-  height: 500px;
-  width: 100vw;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-.seccion1__h1 {
-  font-size: 60px;
-}
-.seccion1__escucha {
-  font-size: 23px;
-  font-weight: 600;
-=======
     /*background-image:url(/pics/premium_dancer.png);
     background-repeat: no-repeat;
     background-size: 400px;
@@ -89,7 +67,6 @@ nav {
 /*.seccion1__escucha {
     font-size: 23px;
     font-weight: 600;
->>>>>>> seccion1
 }
 .seccion__terminos {
   font-size: 10px;
@@ -141,7 +118,6 @@ nav {
   .menu li a,.menu span {
     font-size: 15px;
     text-decoration: none;
-<<<<<<< HEAD
     color: black;
     margin-left: 20px;
     font-weight: 600;
@@ -164,7 +140,3 @@ nav {
   }
  
 }*/
-=======
-    color: white;
-} */
->>>>>>> seccion1
